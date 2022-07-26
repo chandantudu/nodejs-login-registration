@@ -4,7 +4,7 @@ const dbConnection = mysql.createPool({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'nodejs_login'
+    database: 'auth_db'
 });
 
 module.exports = dbConnection.promise();
